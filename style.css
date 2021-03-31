@@ -1,0 +1,252 @@
+/* start style rulez */
+
+body
+{
+    background:#F5AE82;
+	font-family: 'Droid Arabic Kufi', serif;
+	direction:rtl;
+	background-image:url('../images/luffy.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed
+}
+
+.container
+{
+	width:940px;
+	margin:20px auto;
+	background:#FFF
+}
+
+ul, ol
+{
+	margin:0;
+	padding:0;
+	list-style:none
+}
+
+/* end style rulez */
+
+
+/* start header */
+
+header
+{
+	min-height:100px;
+	background:#000;
+	overflow:hidden
+}
+
+header .logo
+{
+	width:20%;
+	float:right
+}
+
+header .logo img
+{
+	width:100px;
+	margin:20px 20px 20px 0
+}
+
+header nav
+{
+	width:80%;
+	float:left;
+	text-align: center
+}
+
+header nav ul
+{
+	margin:50px 50px 0 0;
+	font-family: 'Droid Arabic Kufi', serif;
+	font-weight:bold;
+	font-size:20px
+}
+
+header nav ul li
+{
+	color:#FFF;
+	display:inline-block;
+	padding:10px;
+	margin:5px
+}
+
+/* end header */
+
+/* start content*/
+
+.content
+{
+	min-height:500px;
+	background:#000;
+	overflow:hidden;
+	border-top:1px solid #FFF
+}
+
+.content .sidebar
+{
+	float:right;
+	width:25%;
+	height:500px
+}
+
+.content .sidebar .widget
+{
+	width:90%;
+	background:#FFF;
+	border:1px solid #CCC;
+	margin:  10px auto
+}
+
+.content .sidebar .widget .title, .social-media .title
+{
+	background:#222;
+	color:#FFF;
+	padding:5px 0;
+	text-align:center;
+}
+
+.content .sidebar .widget .data ul
+{
+	padding-right:10px;
+	line-height:200%
+}
+
+.content .sidebar .widget .data, .social-media .data
+{
+	text-align: center;
+	padding: 5px 0
+}
+
+.content .products
+{
+	float:left;
+	width:74%;
+	background:#000;
+	padding: 0 0 20px 0;
+	border-right:1px solid #FFF
+}
+
+.content .products .product
+{
+	width:22%;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	margin-top: 15px;
+	float:right;
+	text-align:center;
+	font-weight:bold;
+	font-family:cursive;
+	font-size:15px;
+	color:#FFF
+}
+
+.content .products .product img
+{
+	max-width:100%;
+    height:250px;
+	border:1px solid #FFF;
+	cursor:pointer
+}
+
+.content .products .product audio
+{
+    width:100%;
+	margin-top:10px
+}
+
+/* end content */
+
+/* start footer */
+
+footer
+{
+	min-height:100px;
+	background:#CCC
+}
+
+footer .info
+{
+	height:100px;
+	background:#676767
+}
+
+footer .copyright
+{
+	height:40px;
+	background:#000
+}
+/* end footer */
+
+/* start social media */
+
+.social-media
+{
+	width:150px;
+	padding:20px;
+	bottom:10px;
+	left:10px;
+	position: fixed
+}
+
+.social-media .media
+{
+	background: #000
+}
+		
+.social-media .data a
+{
+	text-decoration:none
+}
+
+.social-media .data i
+{
+	display:block;
+	color:#FFF
+}
+
+.social-media .data i:hover
+{
+	font-size:5em
+}
+
+.social-media .data .fa-youtube:hover
+{
+	color:red
+}
+
+.social-media .data .fa-instagram:hover
+{
+	color:#DC7ECC
+}
+
+.social-media .data .fa-twitter:hover
+{
+	color:#0FF
+}
+
+.social-media .data .fa-linkedin:hover
+{
+	color:#0073B1
+}
+
+.social-media .data .fa-facebook-square:hover
+{
+	color:#1877F2
+}
+
+/* end social media */
+
+
+
+
+
+
+
+
+
+
+
+
+
